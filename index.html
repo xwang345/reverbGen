@@ -17,9 +17,9 @@
 <html>
 <head>
 <title>ReverbGen</title>
-<link rel="stylesheet" href="main.css" type="text/css">
-<script src="reverbgen.js"></script>
-<script src="main.js"></script>
+<link rel="stylesheet" href="./main.css" type="text/css">
+<script src="./reverbgen.js"></script>
+<script src="./main.js"></script>
 </head>
 <body onload="makeAudioContext()">
 <h1>ReverbGen</h1>
@@ -95,8 +95,9 @@
     </div>
     <div>Dry<input id="demoMix" type="range" min="-24" max="0" step="1" value="-10" oninput="changeDemoMix()" />Wet</div>
   </div><br><br>
+  <!-- <canvas id="myChart" width="400" height="400"></canvas> -->
+  <canvas id="myChart" width="20%" height="20%" style="display: block; height: 50%; width: 50%;"></canvas>
   <div id="feedbackSection"></div>
-
 </div>
 
 <br><br>
